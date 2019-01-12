@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "codeit_jwtPrivateKey",
+  "db": "codeit_db"
+}

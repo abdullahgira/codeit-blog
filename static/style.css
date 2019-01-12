@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 20px 50px;
+  font-size: 40px;
+
+  color: #1a1a1a;
+  background: transparent;
+  border: 1px solid #1a1a1a;
+  border-radius: 5px;
+
+  transition: 0.3s;
+}
+
+.btn:hover {
+  color: #dddddd;
+  background: #1a1a1a;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:active {
+  color: #dddddd;
+  background: #0c0c0c;
+  transition: 0.2s;
+}

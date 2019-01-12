@@ -1,0 +1,1041 @@
+<?xml version="1.0"?>
+<minder>
+  <theme name="Solarized Light" index="19"/>
+  <layout name="Horizontal"/>
+  <drawarea x="20.185102941421064" y="529.33678943215341" scale="1.5"/>
+  <images/>
+  <nodes>
+    <node id="2" posx="848.20717000779416" posy="-81.937070193869033" maxwidth="80.9169921875" width="49" height="28" side="left" fold="false" treesize="1368">
+      <nodename>Blog</nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="17" posx="704.20717000779598" posy="-346.93707019386903" maxwidth="200" width="90" height="28" side="left" fold="false" treesize="630" color="#b58900">
+          <nodename>Comments</nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="49" posx="591.20717000779416" posy="-551.93707019386898" maxwidth="200" width="59" height="28" side="left" fold="false" treesize="220" color="#6c71c4">
+              <nodename>Model</nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="50" posx="467.20717000779416" posy="-646.93707019386909" maxwidth="200" width="68" height="28" side="left" fold="false" treesize="30" color="#6c71c4">
+                  <nodename>Post ID</nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="51" posx="500.20717000779598" posy="-608.93707019386909" maxwidth="200" width="35" height="28" side="left" fold="false" treesize="30" color="#6c71c4">
+                  <nodename>ID</nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="52" posx="448.20717000779416" posy="-570.93707019386909" maxwidth="200" width="87" height="28" side="left" fold="false" treesize="30" color="#6c71c4">
+                  <nodename>Username</nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="53" posx="484.20717000779598" posy="-532.93707019386898" maxwidth="200" width="51" height="28" side="left" fold="false" treesize="30" color="#6c71c4">
+                  <nodename>Date</nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="72" posx="419.20717000779416" posy="-475.93707019386898" maxwidth="200" width="116" height="28" side="left" fold="false" treesize="68" color="#6c71c4">
+                  <nodename>SubComments</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="75" posx="291.20717000779234" posy="-494.93707019386898" maxwidth="200" width="72" height="28" side="left" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>Number</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="74" posx="320.20717000779234" posy="-456.93707019386898" maxwidth="200" width="43" height="28" side="left" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>[ID]</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node id="54" posx="600.20717000779416" posy="-372.93707019386903" maxwidth="200" width="50" height="28" side="left" fold="false" treesize="122" color="#b58900">
+              <nodename>New</nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="185" posx="358.20717000779416" posy="-418.93707019386903" maxwidth="200" width="186" height="46" side="left" fold="false" treesize="48" color="#b58900">
+                  <nodename>Notify post owner with the new comment</nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="186" posx="354.20717000779416" posy="-362.93707019386903" maxwidth="200" width="190" height="64" side="left" fold="false" treesize="66" color="#b58900">
+                  <nodename>Update the number of comments and prepend comment id in posts model</nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="55" posx="605.20717000779598" posy="-288.93707019386903" maxwidth="200" width="45" height="28" side="left" fold="false" treesize="30" color="#b58900">
+              <nodename>Edit</nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="56" posx="588.20717000779598" posy="-232.93707019386903" maxwidth="200" width="62" height="28" side="left" fold="false" treesize="66" color="#b58900">
+              <nodename>Delete</nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="226" posx="320.20717000779416" posy="-250.93707019386903" maxwidth="200" width="212" height="64" side="left" fold="false" treesize="66" color="#b58900">
+                  <nodename>Remove comment id and decrement number from posts model</nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="128" posx="593.20717000779416" posy="-149.93707019386903" maxwidth="200" width="57" height="28" side="left" fold="false" treesize="84" color="#b58900">
+              <nodename>Reply</nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="225" posx="340.20717000779416" posy="-176.93707019386903" maxwidth="200" width="197" height="82" side="left" fold="false" treesize="84" color="#b58900">
+                  <nodename>Update Subcomments number, prepend subcomments ids and notify user</nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="140" posx="584.20717000779598" posy="-84.937070193869033" maxwidth="200" width="66" height="28" side="left" fold="false" treesize="30" color="#b58900">
+              <nodename>Upvote</nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="141" posx="565.20717000779598" posy="-46.937070193869033" maxwidth="200" width="85" height="28" side="left" fold="false" treesize="30" color="#b58900">
+              <nodename>Downvote</nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="35" posx="738.20717000779598" posy="236.06292980613188" maxwidth="200" width="56" height="28" side="left" fold="false" treesize="520" color="#859900">
+          <nodename>Posts</nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="37" posx="634.2071700077978" posy="9.0629298061318764" maxwidth="200" width="50" height="28" side="left" fold="false" treesize="66" color="#859900">
+              <nodename>New</nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="183" posx="380.2071700077978" posy="-8.9370701938681236" maxwidth="200" width="198" height="64" side="left" fold="false" treesize="66" color="#859900">
+                  <nodename>Update the number of posts and prepend post id in the user model</nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="38" posx="639.2071700077978" posy="65.062929806131876" maxwidth="200" width="45" height="28" side="left" fold="false" treesize="30" color="#859900">
+              <nodename>Edit</nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="39" posx="622.2071700077978" posy="121.06292980613188" maxwidth="200" width="62" height="28" side="left" fold="false" treesize="66" color="#859900">
+              <nodename>Delete</nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="184" posx="371.2071700077978" posy="103.06292980613188" maxwidth="200" width="195" height="64" side="left" fold="false" treesize="66" color="#859900">
+                  <nodename>Remove post id and decrement number of posts from user model</nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="41" posx="625.2071700077978" posy="329.06292980613097" maxwidth="200" width="59" height="28" side="left" fold="false" treesize="334" color="#6c71c4">
+              <nodename>Model</nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="42" posx="482.20717000779962" posy="177.06292980613097" maxwidth="200" width="87" height="28" side="left" fold="false" treesize="30" color="#6c71c4">
+                  <nodename>Username</nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="43" posx="497.20717000779962" posy="215.06292980613097" maxwidth="200" width="72" height="28" side="left" fold="false" treesize="30" color="#6c71c4">
+                  <nodename>Number</nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="44" posx="534.2071700077978" posy="253.06292980613097" maxwidth="200" width="35" height="28" side="left" fold="false" treesize="30" color="#6c71c4">
+                  <nodename>ID</nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="45" posx="479.20717000779962" posy="310.06292980613097" maxwidth="200" width="90" height="28" side="left" fold="false" treesize="68" color="#6c71c4">
+                  <nodename>Comments</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="46" posx="299.2071700077978" posy="291.06292980613097" maxwidth="200" width="124" height="28" side="left" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>[Comments IDs]</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="47" posx="351.2071700077978" posy="329.06292980613097" maxwidth="200" width="72" height="28" side="left" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>Number</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="57" posx="520.20717000779962" posy="424.06292980613091" maxwidth="200" width="49" height="28" side="left" fold="false" treesize="144" color="#6c71c4">
+                  <nodename>Post</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="58" posx="418.2071700077978" posy="367.06292980613091" maxwidth="200" width="46" height="28" side="left" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>Title</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="59" posx="371.2071700077978" posy="405.06292980613091" maxwidth="200" width="93" height="28" side="left" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>Post Image</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="60" posx="393.2071700077978" posy="443.06292980613085" maxwidth="200" width="71" height="28" side="left" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>Content</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="62" posx="342.2071700077978" posy="481.06292980613171" maxwidth="200" width="122" height="28" side="left" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>Content Images</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="3" posx="947.20717000779439" posy="-205.93707019386903" maxwidth="200" width="58" height="28" side="right" fold="false" treesize="1122" color="#dc322f">
+          <nodename>Users</nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="4" posx="1057.2071700077952" posy="-751.93707019386966" maxwidth="200" width="74" height="28" side="right" fold="false" treesize="30" color="#dc322f">
+              <nodename>Register</nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="7" posx="1057.2071700077952" posy="-713.93707019386966" maxwidth="200" width="55" height="28" side="right" fold="false" treesize="30" color="#dc322f">
+              <nodename>Login</nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="8" posx="1057.2071700077952" posy="-167.93707019386903" maxwidth="200" width="59" height="28" side="right" fold="false" treesize="1046" color="#6c71c4">
+              <nodename>Model</nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="9" posx="1168.2071700077954" posy="-637.93707019386898" maxwidth="200" width="59" height="28" side="right" fold="false" treesize="106" color="#6c71c4">
+                  <nodename>Name</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="298" posx="1279.2071700077947" posy="-675.93707019386954" maxwidth="200" width="73" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>required</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="299" posx="1279.2071700077947" posy="-637.93707019386898" maxwidth="200" width="111" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>min length = 4</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="300" posx="1279.2071700077947" posy="-599.93707019386898" maxwidth="200" width="123" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>max length = 50</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="10" posx="1168.2071700077954" posy="-561.93707019386989" maxwidth="200" width="87" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                  <nodename>Username</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="301" posx="1307.2071700077947" posy="-561.93707019386989" maxwidth="200" width="73" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>required</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="11" posx="1168.2071700077954" posy="-523.93707019386898" maxwidth="200" width="56" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                  <nodename>Email</nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="12" posx="1168.2071700077954" posy="-485.93707019386903" maxwidth="200" width="84" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                  <nodename>Password</nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="13" posx="1168.2071700077954" posy="-391.93707019386903" maxwidth="200" width="82" height="28" side="right" fold="false" treesize="142" color="#6c71c4">
+                  <nodename>Followers</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="24" posx="1302.2071700077947" posy="-447.93707019386903" maxwidth="200" width="72" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>Number</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="25" posx="1302.2071700077947" posy="-409.93707019386903" maxwidth="200" width="102" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>[Usernames]</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="81" posx="1302.2071700077947" posy="-371.93707019386903" maxwidth="200" width="208" height="64" side="right" fold="false" treesize="66" color="#6c71c4">
+                      <nodename>GET /api/users/:username/followers RETURNS Array of Objects</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="18" posx="1168.2071700077954" posy="-241.93707019386903" maxwidth="200" width="81" height="28" side="right" fold="false" treesize="142" color="#6c71c4">
+                  <nodename>Following</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="26" posx="1301.2071700077947" posy="-297.93707019386903" maxwidth="200" width="72" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>Number</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="27" posx="1301.2071700077947" posy="-259.93707019386903" maxwidth="200" width="102" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>[Usernames]</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="82" posx="1301.2071700077947" posy="-221.93707019386903" maxwidth="200" width="207" height="64" side="right" fold="false" treesize="66" color="#6c71c4">
+                      <nodename>GET /api/users/:username/following RETURNS Array of Objects</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="14" posx="1168.2071700077954" posy="-128.93707019386903" maxwidth="200" width="56" height="28" side="right" fold="false" treesize="68" color="#6c71c4">
+                  <nodename>Posts</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="29" posx="1276.2071700077947" posy="-147.93707019386903" maxwidth="200" width="72" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>Number</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="33" posx="1276.2071700077947" posy="-109.93707019386903" maxwidth="200" width="90" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>[Posts IDs]</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="15" posx="1168.2071700077954" posy="-71.937070193869033" maxwidth="200" width="44" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                  <nodename>Img</nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="16" posx="1168.2071700077954" posy="2.0629298061336954" maxwidth="200" width="90" height="28" side="right" fold="false" treesize="102" color="#6c71c4">
+                  <nodename>Comments</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="133" posx="1310.2071700077947" posy="-33.937070193866305" maxwidth="200" width="213" height="100" side="right" fold="false" treesize="102" color="#6c71c4">
+                      <nodename>Should not be here, this should be a GET request that returns all the comments with the replies to them in a human readable format</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="71" posx="1168.2071700077954" posy="114.06292980613097" maxwidth="200" width="91" height="28" side="right" fold="false" treesize="106" color="#6c71c4">
+                  <nodename>Notification</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="129" posx="1311.2071700077947" posy="76.062929806130967" maxwidth="200" width="51" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>Date</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="130" posx="1311.2071700077947" posy="114.06292980613097" maxwidth="200" width="99" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>{ title, body }</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="132" posx="1311.2071700077947" posy="152.06292980613279" maxwidth="200" width="68" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>Sort: -1</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="127" posx="1168.2071700077954" posy="246.06292980613279" maxwidth="200" width="73" height="28" side="right" fold="false" treesize="142" color="#6c71c4">
+                  <nodename>Upvotes</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="137" posx="1293.2071700077947" posy="190.06292980613279" maxwidth="200" width="69" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>number</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="227" posx="1293.2071700077947" posy="228.06292980613279" maxwidth="200" width="174" height="46" side="right" fold="false" treesize="48" color="#6c71c4">
+                      <nodename>Notify user with the new upvote</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="274" posx="1293.2071700077947" posy="284.0629298061337" maxwidth="200" width="199" height="46" side="right" fold="false" treesize="48" color="#6c71c4">
+                      <nodename>.downVote will decrease the number</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="288" posx="1168.2071700077954" posy="340.06292980613097" maxwidth="200" width="92" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                  <nodename>Bookmarks</nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="63" posx="947.20717000779439" posy="482.06292980613074" maxwidth="200" width="116" height="28" side="right" fold="false" treesize="238" color="#d33682">
+          <nodename>SubComments</nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="66" posx="1115.2071700077952" posy="454.06292980613074" maxwidth="200" width="59" height="28" side="right" fold="false" treesize="182" color="#6c71c4">
+              <nodename>Model</nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="67" posx="1226.2071700077954" posy="378.06292980613074" maxwidth="200" width="35" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                  <nodename>ID</nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="68" posx="1226.2071700077954" posy="416.06292980613074" maxwidth="200" width="82" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                  <nodename>Parent ID</nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="69" posx="1226.2071700077954" posy="454.06292980613074" maxwidth="200" width="87" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                  <nodename>Username</nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="134" posx="1226.2071700077954" posy="511.06292980612989" maxwidth="200" width="116" height="28" side="right" fold="false" treesize="68" color="#6c71c4">
+                  <nodename>SubComments</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="136" posx="1394.2071700077947" posy="492.06292980612989" maxwidth="200" width="72" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>Number</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="135" posx="1394.2071700077947" posy="530.06292980612966" maxwidth="200" width="43" height="28" side="right" fold="false" treesize="30" color="#6c71c4">
+                      <nodename>[ID]</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node id="70" posx="1115.2071700077952" posy="568.06292980613057" maxwidth="200" width="197" height="46" side="right" fold="false" treesize="48" color="#d33682">
+              <nodename>.parent(): function to get the parent comment</nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+    <node id="373" posx="2792.7172914387011" posy="479.35654618111994" maxwidth="200" width="56" height="28" side="left" fold="false" treesize="48">
+      <nodename>Posts</nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="374" posx="2898.7172914386997" posy="469.35654618111994" maxwidth="200" width="197" height="46" side="right" fold="false" treesize="48" color="#dc322f">
+          <nodename>GET /api/posts/{username}/{postID}</nodename>
+          <nodenote></nodenote>
+        </node>
+      </nodes>
+    </node>
+    <node id="480" posx="3769.2817863246009" posy="-607.17838948567783" maxwidth="200" width="44" height="28" side="left" fold="false" treesize="2421.9999999999995">
+      <nodename>API</nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="492" posx="3661.2817863246009" posy="-608.17838948567783" maxwidth="200" width="54" height="28" side="left" fold="false" treesize="68" color="#b58900">
+          <nodename>posts</nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="485" posx="3514.2817863246009" posy="-627.17838948567828" maxwidth="200" width="91" height="28" side="left" fold="false" treesize="30" color="#b58900">
+              <nodename>create post</nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="486" posx="3515.2817863246009" posy="-589.17838948567783" maxwidth="200" width="90" height="28" side="left" fold="false" treesize="30" color="#b58900">
+              <nodename>delete post</nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="491" posx="3863.2817863245991" posy="-523.17838948567737" maxwidth="200" width="55" height="28" side="right" fold="false" treesize="2421.9999999999995" color="#2aa198">
+          <nodename>users</nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="482" posx="3970.2817863245991" posy="-1007.1783894856779" maxwidth="200" width="88" height="28" side="right" fold="false" treesize="562" color="#2aa198">
+              <nodename>Edit profile</nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="529" posx="4110.2817863246009" posy="-1016.1783894856779" maxwidth="200" width="198" height="46" side="right" fold="false" treesize="48" color="#2aa198">
+                  <nodename>PUT /api/users/{username}/update</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="508" posx="4360.2817863246009" posy="-1007.1783894856779" maxwidth="200" width="68" height="28" side="right" fold="false" treesize="562" color="#2aa198">
+                      <nodename>request</nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="509" posx="4480.2817863246028" posy="-1235.1783894856767" maxwidth="200" width="56" height="28" side="right" fold="false" treesize="106" color="#2aa198">
+                          <nodename>name</nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="510" posx="4588.2817863246037" posy="-1273.1783894856771" maxwidth="200" width="59" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>min: 4</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="511" posx="4588.2817863246037" posy="-1235.1783894856767" maxwidth="200" width="71" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>max: 50</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="512" posx="4588.2817863246037" posy="-1197.1783894856767" maxwidth="200" width="55" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>string</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                          </nodes>
+                        </node>
+                        <node id="513" posx="4480.2817863246028" posy="-1102.1783894856776" maxwidth="200" width="84" height="28" side="right" fold="false" treesize="144" color="#2aa198">
+                          <nodename>username</nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="514" posx="4616.2817863246037" posy="-1159.1783894856776" maxwidth="200" width="59" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>min: 6</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="515" posx="4616.2817863246037" posy="-1121.1783894856776" maxwidth="200" width="71" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>max: 30</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="516" posx="4616.2817863246037" posy="-1083.1783894856776" maxwidth="200" width="176" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>alphabet characters only</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="517" posx="4616.2817863246037" posy="-1045.1783894856776" maxwidth="200" width="55" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>string</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                          </nodes>
+                        </node>
+                        <node id="518" posx="4480.2817863246028" posy="-1007.1783894856779" maxwidth="200" width="54" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                          <nodename>email</nodename>
+                          <nodenote></nodenote>
+                        </node>
+                        <node id="519" posx="4480.2817863246028" posy="-931.17838948567794" maxwidth="200" width="82" height="28" side="right" fold="false" treesize="106" color="#2aa198">
+                          <nodename>password</nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="520" posx="4614.2817863246037" posy="-969.17838948567794" maxwidth="200" width="59" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>min: 8</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="521" posx="4614.2817863246037" posy="-931.17838948567794" maxwidth="200" width="79" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>max: 255</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="522" posx="4614.2817863246037" posy="-893.17838948567794" maxwidth="200" width="55" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>string</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                          </nodes>
+                        </node>
+                        <node id="523" posx="4480.2817863246028" posy="-798.17838948567794" maxwidth="200" width="79" height="28" side="right" fold="false" treesize="144" color="#2aa198">
+                          <nodename>response</nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="524" posx="4611.2817863246037" posy="-855.17838948567794" maxwidth="200" width="56" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>name</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="526" posx="4611.2817863246037" posy="-817.17838948567794" maxwidth="200" width="84" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>username</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="527" posx="4611.2817863246037" posy="-779.17838948567794" maxwidth="200" width="54" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>email</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="525" posx="4611.2817863246037" posy="-741.17838948567794" maxwidth="200" width="43" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>img</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                          </nodes>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node id="484" posx="3970.2817863245991" posy="-694.17838948567839" maxwidth="200" width="73" height="28" side="right" fold="false" treesize="48" color="#2aa198">
+              <nodename>unfollow</nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="532" posx="4095.2817863246009" posy="-703.17838948567839" maxwidth="200" width="206" height="46" side="right" fold="false" treesize="48" color="#2aa198">
+                  <nodename>GET /api/users/{username1}/unfollow/{username2}</nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="483" posx="3970.2817863245991" posy="-638.17838948567737" maxwidth="200" width="57" height="28" side="right" fold="false" treesize="48" color="#2aa198">
+              <nodename>follow</nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="528" posx="4079.2817863246019" posy="-647.17838948567737" maxwidth="200" width="206" height="46" side="right" fold="false" treesize="48" color="#2aa198">
+                  <nodename>GET /api/users/{username1}/follow/{username2}</nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="543" posx="3970.2817863245991" posy="-572.17838948567783" maxwidth="200" width="77" height="28" side="right" fold="false" treesize="68" color="#2aa198">
+              <nodename>followers</nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="545" posx="4099.2817863246009" posy="-581.17838948567783" maxwidth="200" width="198" height="46" side="right" fold="false" treesize="68" color="#2aa198">
+                  <nodename>GET /api/users/{username}/followers</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="548" posx="4349.2817863246009" posy="-591.17838948567783" maxwidth="200" width="69" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                      <nodename>number</nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="549" posx="4470.2817863246009" posy="-591.17838948567783" maxwidth="200" width="90" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                          <nodename>type: string</nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                    <node id="551" posx="4349.2817863246009" posy="-553.17838948567783" maxwidth="200" width="55" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                      <nodename>users</nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="553" posx="4456.2817863246009" posy="-553.17838948567783" maxwidth="200" width="144" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                          <nodename>array of usernames</nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="552" posx="4652.2817863246037" posy="-553.17838948567783" maxwidth="200" width="88" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>type: array</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                          </nodes>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node id="544" posx="3970.2817863245991" posy="-496.17838948567783" maxwidth="200" width="76" height="28" side="right" fold="false" treesize="68" color="#2aa198">
+              <nodename>following</nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="547" posx="4098.2817863246009" posy="-505.17838948567783" maxwidth="200" width="198" height="46" side="right" fold="false" treesize="68" color="#2aa198">
+                  <nodename>GET /api/users/{username}/following</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="556" posx="4348.2817863246009" posy="-515.17838948567783" maxwidth="200" width="69" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                      <nodename>number</nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="557" posx="4469.2817863246009" posy="-515.17838948567783" maxwidth="200" width="90" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                          <nodename>type: string</nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                    <node id="561" posx="4348.2817863246009" posy="-477.17838948567783" maxwidth="200" width="55" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                      <nodename>users</nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="562" posx="4455.2817863246009" posy="-477.17838948567783" maxwidth="200" width="144" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                          <nodename>array of usernames</nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="563" posx="4651.2817863246037" posy="-477.17838948567783" maxwidth="200" width="88" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>type: array</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                          </nodes>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node id="302" posx="3970.2817863245991" posy="-230.17838948567783" maxwidth="200" width="74" height="28" side="right" fold="false" treesize="447.99999999999989" color="#2aa198">
+              <nodename>Register</nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="356" posx="4096.2817863246009" posy="-230.17838948567783" maxwidth="200" width="178" height="28" side="right" fold="false" treesize="447.99999999999989" color="#2aa198">
+                  <nodename>POST /api/users/register</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="303" posx="4326.2817863246028" posy="-249.17838948567783" maxwidth="200" width="68" height="28" side="right" fold="false" treesize="409.99999999999994" color="#2aa198">
+                      <nodename>request</nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="304" posx="4446.2817863246028" posy="-401.17838948567783" maxwidth="200" width="56" height="28" side="right" fold="false" treesize="106" color="#2aa198">
+                          <nodename>name</nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="308" posx="4554.2817863246073" posy="-439.17838948567783" maxwidth="200" width="59" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>min: 4</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="309" posx="4554.2817863246073" posy="-401.17838948567783" maxwidth="200" width="71" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>max: 50</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="411" posx="4554.2817863246073" posy="-363.17838948567783" maxwidth="200" width="55" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>string</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                          </nodes>
+                        </node>
+                        <node id="305" posx="4446.2817863246028" posy="-268.17838948567783" maxwidth="200" width="84" height="28" side="right" fold="false" treesize="144" color="#2aa198">
+                          <nodename>username</nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="311" posx="4582.2817863246037" posy="-325.17838948567783" maxwidth="200" width="59" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>min: 6</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="312" posx="4582.2817863246037" posy="-287.17838948567783" maxwidth="200" width="71" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>max: 30</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="313" posx="4582.2817863246037" posy="-249.17838948567783" maxwidth="200" width="176" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>alphabet characters only</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="410" posx="4582.2817863246037" posy="-211.17838948567783" maxwidth="200" width="55" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>string</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                          </nodes>
+                        </node>
+                        <node id="306" posx="4446.2817863246028" posy="-173.17838948567783" maxwidth="200" width="54" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                          <nodename>email</nodename>
+                          <nodenote></nodenote>
+                        </node>
+                        <node id="307" posx="4446.2817863246028" posy="-97.178389485678281" maxwidth="200" width="82" height="28" side="right" fold="false" treesize="106" color="#2aa198">
+                          <nodename>password</nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="315" posx="4580.2817863246037" posy="-135.17838948567828" maxwidth="200" width="59" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>min: 8</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="316" posx="4580.2817863246037" posy="-97.178389485678281" maxwidth="200" width="79" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>max: 255</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="409" posx="4580.2817863246037" posy="-59.178389485677826" maxwidth="200" width="55" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>string</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                          </nodes>
+                        </node>
+                      </nodes>
+                    </node>
+                    <node id="318" posx="4326.2817863246028" posy="-21.178389485677371" maxwidth="200" width="79" height="28" side="right" fold="false" treesize="30" color="#7a36b1">
+                      <nodename>response</nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="319" posx="4457.2817863246009" posy="-21.178389485677371" maxwidth="200" width="138" height="28" side="right" fold="false" treesize="30" color="#7a36b1">
+                          <nodename>Check status code</nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node id="321" posx="3970.2817863245991" posy="130.82161051432081" maxwidth="200" width="55" height="28" side="right" fold="false" treesize="258" color="#2aa198">
+              <nodename>Login</nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="533" posx="4077.2817863246019" posy="130.82161051432081" maxwidth="200" width="160" height="28" side="right" fold="false" treesize="258" color="#2aa198">
+                  <nodename>POST /api/users/login</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="540" posx="4289.2817863246009" posy="35.82161051432081" maxwidth="200" width="68" height="28" side="right" fold="false" treesize="68" color="#2aa198">
+                      <nodename>request</nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="541" posx="4409.2817863246009" posy="16.82161051432081" maxwidth="200" width="54" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                          <nodename>email</nodename>
+                          <nodenote></nodenote>
+                        </node>
+                        <node id="542" posx="4409.2817863246009" posy="54.82161051432081" maxwidth="200" width="82" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                          <nodename>password</nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                    <node id="534" posx="4289.2817863246009" posy="168.82161051432081" maxwidth="200" width="79" height="28" side="right" fold="false" treesize="182" color="#7a36b1">
+                      <nodename>response</nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="535" posx="4420.2817863246009" posy="92.82161051432081" maxwidth="200" width="84" height="28" side="right" fold="false" treesize="30" color="#7a36b1">
+                          <nodename>username</nodename>
+                          <nodenote></nodenote>
+                        </node>
+                        <node id="536" posx="4420.2817863246009" posy="130.82161051432081" maxwidth="200" width="55" height="28" side="right" fold="false" treesize="30" color="#7a36b1">
+                          <nodename>token</nodename>
+                          <nodenote></nodenote>
+                        </node>
+                        <node id="537" posx="4420.2817863246009" posy="168.82161051432081" maxwidth="200" width="56" height="28" side="right" fold="false" treesize="30" color="#7a36b1">
+                          <nodename>name</nodename>
+                          <nodenote></nodenote>
+                        </node>
+                        <node id="538" posx="4420.2817863246009" posy="206.82161051432081" maxwidth="200" width="54" height="28" side="right" fold="false" treesize="30" color="#7a36b1">
+                          <nodename>email</nodename>
+                          <nodenote></nodenote>
+                        </node>
+                        <node id="539" posx="4420.2817863246009" posy="244.82161051432172" maxwidth="200" width="43" height="28" side="right" fold="false" treesize="30" color="#7a36b1">
+                          <nodename>img</nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node id="351" posx="3970.2817863245991" posy="548.82161051432251" maxwidth="200" width="59" height="28" side="right" fold="false" treesize="562" color="#2aa198">
+              <nodename>Home</nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="352" posx="4081.2817863246019" posy="539.82161051432251" maxwidth="200" width="198" height="46" side="right" fold="false" treesize="562" color="#2aa198">
+                  <nodename>GET /api/users/{username}/home</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="353" posx="4331.2817863246009" posy="491.82161051432251" maxwidth="200" width="58" height="28" side="right" fold="false" treesize="448" color="#2aa198">
+                      <nodename>object</nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="357" posx="4441.2817863246009" posy="377.82161051432251" maxwidth="200" width="129" height="28" side="right" fold="false" treesize="220" color="#2aa198">
+                          <nodename>popularPosts[list]</nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="395" posx="4622.2817863246037" posy="377.82161051432251" maxwidth="200" width="58" height="28" side="right" fold="false" treesize="220" color="#2aa198">
+                              <nodename>object</nodename>
+                              <nodenote></nodenote>
+                              <nodes>
+                                <node id="396" posx="4732.2817863246037" posy="282.82161051432251" maxwidth="200" width="42" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                  <nodename>title</nodename>
+                                  <nodenote></nodenote>
+                                  <nodes>
+                                    <node id="397" posx="4826.2817863246037" posy="282.82161051432251" maxwidth="200" width="55" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                      <nodename>string</nodename>
+                                      <nodenote></nodenote>
+                                    </node>
+                                  </nodes>
+                                </node>
+                                <node id="398" posx="4732.2817863246037" posy="320.82161051432251" maxwidth="200" width="62" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                  <nodename>postID</nodename>
+                                  <nodenote></nodenote>
+                                  <nodes>
+                                    <node id="399" posx="4846.2817863246046" posy="320.82161051432251" maxwidth="200" width="55" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                      <nodename>string</nodename>
+                                      <nodenote></nodenote>
+                                    </node>
+                                  </nodes>
+                                </node>
+                                <node id="400" posx="4732.2817863246037" posy="358.82161051432251" maxwidth="200" width="79" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                  <nodename>coverImg</nodename>
+                                  <nodenote></nodenote>
+                                  <nodes>
+                                    <node id="401" posx="4863.2817863246046" posy="358.82161051432251" maxwidth="200" width="55" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                      <nodename>string</nodename>
+                                      <nodenote></nodenote>
+                                    </node>
+                                  </nodes>
+                                </node>
+                                <node id="402" posx="4732.2817863246037" posy="396.82161051432251" maxwidth="200" width="48" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                  <nodename>likes</nodename>
+                                  <nodenote></nodenote>
+                                  <nodes>
+                                    <node id="403" posx="4832.2817863246037" posy="396.82161051432251" maxwidth="200" width="35" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                      <nodename>int</nodename>
+                                      <nodenote></nodenote>
+                                    </node>
+                                  </nodes>
+                                </node>
+                                <node id="404" posx="4732.2817863246037" posy="434.82161051432251" maxwidth="200" width="86" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                  <nodename>comments</nodename>
+                                  <nodenote></nodenote>
+                                  <nodes>
+                                    <node id="405" posx="4870.2817863246046" posy="434.82161051432251" maxwidth="200" width="35" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                      <nodename>int</nodename>
+                                      <nodenote></nodenote>
+                                    </node>
+                                  </nodes>
+                                </node>
+                                <node id="406" posx="4732.2817863246037" posy="472.82161051432251" maxwidth="200" width="90" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                  <nodename>bookmarks</nodename>
+                                  <nodenote></nodenote>
+                                  <nodes>
+                                    <node id="407" posx="4874.2817863246046" posy="472.82161051432251" maxwidth="200" width="35" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                      <nodename>int</nodename>
+                                      <nodenote></nodenote>
+                                    </node>
+                                  </nodes>
+                                </node>
+                              </nodes>
+                            </node>
+                          </nodes>
+                        </node>
+                        <node id="358" posx="4441.2817863246009" posy="605.8216105143224" maxwidth="200" width="79" height="28" side="right" fold="false" treesize="220" color="#2aa198">
+                          <nodename>posts[list]</nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="366" posx="4572.2817863246037" posy="605.8216105143224" maxwidth="200" width="58" height="28" side="right" fold="false" treesize="220" color="#2aa198">
+                              <nodename>object</nodename>
+                              <nodenote></nodenote>
+                              <nodes>
+                                <node id="368" posx="4682.2817863246037" posy="510.8216105143224" maxwidth="200" width="42" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                  <nodename>title</nodename>
+                                  <nodenote></nodenote>
+                                  <nodes>
+                                    <node id="381" posx="4776.2817863246037" posy="510.8216105143224" maxwidth="200" width="55" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                      <nodename>string</nodename>
+                                      <nodenote></nodenote>
+                                    </node>
+                                  </nodes>
+                                </node>
+                                <node id="375" posx="4682.2817863246037" posy="548.8216105143224" maxwidth="200" width="62" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                  <nodename>postID</nodename>
+                                  <nodenote></nodenote>
+                                  <nodes>
+                                    <node id="380" posx="4796.2817863246055" posy="548.8216105143224" maxwidth="200" width="55" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                      <nodename>string</nodename>
+                                      <nodenote></nodenote>
+                                    </node>
+                                  </nodes>
+                                </node>
+                                <node id="369" posx="4682.2817863246037" posy="586.8216105143224" maxwidth="200" width="79" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                  <nodename>coverImg</nodename>
+                                  <nodenote></nodenote>
+                                  <nodes>
+                                    <node id="379" posx="4813.2817863246055" posy="586.8216105143224" maxwidth="200" width="55" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                      <nodename>string</nodename>
+                                      <nodenote></nodenote>
+                                    </node>
+                                  </nodes>
+                                </node>
+                                <node id="370" posx="4682.2817863246037" posy="624.8216105143224" maxwidth="200" width="48" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                  <nodename>likes</nodename>
+                                  <nodenote></nodenote>
+                                  <nodes>
+                                    <node id="376" posx="4782.2817863246037" posy="624.8216105143224" maxwidth="200" width="35" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                      <nodename>int</nodename>
+                                      <nodenote></nodenote>
+                                    </node>
+                                  </nodes>
+                                </node>
+                                <node id="371" posx="4682.2817863246037" posy="662.82161051432229" maxwidth="200" width="86" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                  <nodename>comments</nodename>
+                                  <nodenote></nodenote>
+                                  <nodes>
+                                    <node id="377" posx="4820.2817863246073" posy="662.82161051432229" maxwidth="200" width="35" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                      <nodename>int</nodename>
+                                      <nodenote></nodenote>
+                                    </node>
+                                  </nodes>
+                                </node>
+                                <node id="372" posx="4682.2817863246037" posy="700.8216105143224" maxwidth="200" width="90" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                  <nodename>bookmarks</nodename>
+                                  <nodenote></nodenote>
+                                  <nodes>
+                                    <node id="378" posx="4824.2817863246073" posy="700.8216105143224" maxwidth="200" width="35" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                      <nodename>int</nodename>
+                                      <nodenote></nodenote>
+                                    </node>
+                                  </nodes>
+                                </node>
+                              </nodes>
+                            </node>
+                          </nodes>
+                        </node>
+                      </nodes>
+                    </node>
+                    <node id="354" posx="4331.2817863246009" posy="776.8216105143232" maxwidth="200" width="160" height="28" side="right" fold="false" treesize="106" color="#2aa198">
+                      <nodename>POST /api/users/login</nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="322" posx="4543.2817863246037" posy="757.8216105143232" maxwidth="200" width="68" height="28" side="right" fold="false" treesize="68" color="#2aa198">
+                          <nodename>request</nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="323" posx="4663.2817863246037" posy="738.8216105143232" maxwidth="200" width="54" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>email</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="324" posx="4663.2817863246037" posy="776.8216105143232" maxwidth="200" width="82" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>password</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                          </nodes>
+                        </node>
+                        <node id="325" posx="4543.2817863246037" posy="814.82161051432331" maxwidth="200" width="79" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                          <nodename>response</nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="326" posx="4674.2817863246037" posy="814.82161051432331" maxwidth="200" width="72" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>headers</nodename>
+                              <nodenote></nodenote>
+                              <nodes>
+                                <node id="327" posx="4798.2817863246073" posy="814.82161051432331" maxwidth="200" width="100" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                  <nodename>x-auth-token</nodename>
+                                  <nodenote></nodenote>
+                                  <nodes>
+                                    <node id="408" posx="4950.2817863246082" posy="814.82161051432331" maxwidth="200" width="55" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                                      <nodename>string</nodename>
+                                      <nodenote></nodenote>
+                                    </node>
+                                  </nodes>
+                                </node>
+                              </nodes>
+                            </node>
+                          </nodes>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node id="359" posx="3970.2817863245991" posy="890.82161051432115" maxwidth="200" width="98" height="28" side="right" fold="false" treesize="106.00000000000023" color="#2aa198">
+              <nodename>Notifications</nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="360" posx="4120.2817863246009" posy="881.82161051432115" maxwidth="200" width="198" height="46" side="right" fold="false" treesize="106" color="#2aa198">
+                  <nodename>GET /api/users/{username}/notifications/</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="361" posx="4370.2817863246009" posy="890.82161051432115" maxwidth="200" width="53" height="28" side="right" fold="false" treesize="106.00000000000045" color="#2aa198">
+                      <nodename>array</nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="362" posx="4475.2817863246009" posy="890.82161051432115" maxwidth="200" width="58" height="28" side="right" fold="false" treesize="106" color="#2aa198">
+                          <nodename>object</nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="363" posx="4585.2817863246" posy="852.82161051432115" maxwidth="200" width="42" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>title</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="364" posx="4585.2817863246" posy="890.82161051432115" maxwidth="200" width="51" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>body</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="365" posx="4585.2817863246" posy="928.82161051432115" maxwidth="200" width="48" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                              <nodename>data</nodename>
+                              <nodenote></nodenote>
+                            </node>
+                          </nodes>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node id="473" posx="3970.2817863245991" posy="1042.8216105143229" maxwidth="200" width="61" height="28" side="right" fold="false" treesize="182" color="#2aa198">
+              <nodename>Profile</nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="474" posx="4083.2817863246019" posy="1042.8216105143229" maxwidth="200" width="175" height="28" side="right" fold="false" treesize="182" color="#2aa198">
+                  <nodename>GET /{username}/profile</nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="475" posx="4310.2817863246009" posy="966.82161051432286" maxwidth="200" width="77" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                      <nodename>followers</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="476" posx="4310.2817863246009" posy="1004.8216105143229" maxwidth="200" width="76" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                      <nodename>following</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="477" posx="4310.2817863246009" posy="1042.8216105143229" maxwidth="200" width="106" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                      <nodename>postsNumber</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="478" posx="4310.2817863246009" posy="1080.8216105143229" maxwidth="200" width="100" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                      <nodename>likesNumber</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="479" posx="4310.2817863246009" posy="1118.8216105143229" maxwidth="200" width="142" height="28" side="right" fold="false" treesize="30" color="#2aa198">
+                      <nodename>bookmarksNumber</nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+    <node id="481" posx="2774.6274691045546" posy="-860.4136189778651" maxwidth="200" width="103" height="28" side="left" fold="false" treesize="28">
+      <nodename>Another Idea</nodename>
+      <nodenote></nodenote>
+    </node>
+  </nodes>
+</minder>
