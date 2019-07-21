@@ -30,7 +30,6 @@ exports.register = {
     }
 
     // Validating req.body content
-    console.log(req.body);
     const { error } = validate(req.body);
     if (error) return res.status(406).json({ error: error.details[0].message });
 
@@ -38,9 +37,7 @@ exports.register = {
 
     // Setting default image
     user.imgFile = img;
-    user.img = `${req.protocol}://${req.get('host')}/api/users/${
-      user.username
-    }/public/img/${Date.now()}`;
+    user.img = `${req.protocol}://${req.get('host')}/api/users/${user.username}/public/img/${Date.now()}`;
 
     // Encrypting password
     const salt = await bcrypt.genSalt(10);
@@ -98,19 +95,16 @@ exports.login = {
   logic: async (req, res) => {
     const { error } = validateLogin(req.body);
     if (error) {
-      console.log(error.details[0].message);
       return res.status(404).json({ error: error.details[0].message });
     }
 
     const user = await User.findOne({ email: req.body.email.trim() });
     if (!user) {
-      console.log('!user');
       return res.status(400).json({ error: 'invalid email or password' });
     }
 
     const validPassword = await bcrypt.compare(req.body.password, user.password);
     if (!validPassword) {
-      console.log('!validPassword');
       return res.status(400).json({ error: 'invalid email or password' });
     }
 
@@ -127,23 +121,18 @@ exports.update = {
     const user = await User.findOne({ username: req.params.username });
 
     const { error } = validateUpdate(req.body);
-    if (error)
-      return res.status(406).json({ status: 406, message: error.details[0].message });
+    if (error) return res.status(406).json({ status: 406, message: error.details[0].message });
 
     if (req.file || req.body.imgFile) {
       user.imgFile = req.file ? b64Encode(req.file.path) : req.body.imgFile || '';
-      user.img = `${req.protocol}://${req.get('host')}/api/users/${
-        user.username
-      }/public/img/${Date.now()}`;
+      user.img = `${req.protocol}://${req.get('host')}/api/users/${user.username}/public/img/${Date.now()}`;
       del('./public/');
     }
 
     for (let propery in req.body) {
       user[propery] = req.body[propery];
       if (propery === 'username')
-        user.img = `${req.protocol}://${req.get('host')}/api/users/${
-          user.username
-        }/public/img/${Date.now()}`;
+        user.img = `${req.protocol}://${req.get('host')}/api/users/${user.username}/public/img/${Date.now()}`;
     }
 
     if (req.body.password) {
@@ -165,9 +154,7 @@ exports.follow = {
     if (!user || !user2) {
       return res.status(406).json({
         status: 406,
-        message: `there is no user with this username ${req.params.username} || ${
-          req.params.username2
-        }`
+        message: `there is no user with this username ${req.params.username} || ${req.params.username2}`
       });
     }
 
@@ -177,9 +164,7 @@ exports.follow = {
     // Extra secure layer
     const following = getUsername(user.following, user2.username);
     if (following !== -1) {
-      return res
-        .status(404)
-        .json({ error: `${user.username} is already following ${user2.username}` });
+      return res.status(404).json({ error: `${user.username} is already following ${user2.username}` });
     }
 
     // Update followers and following for the proper user
@@ -193,8 +178,7 @@ exports.follow = {
     });
 
     let isfollowing = false;
-    if (user2.following.users.findIndex(u => u.username === user.username) !== -1)
-      isfollowing = true;
+    if (user2.following.users.findIndex(u => u.username === user.username) !== -1) isfollowing = true;
 
     user2.followers.users.unshift({
       name: user.name,
@@ -203,7 +187,6 @@ exports.follow = {
       isfollowing: isfollowing
     });
 
-    // console.log(user2.followers.users);
     user.following.number = (Number(user.following.number) + 1).toString();
     user2.followers.number = (Number(user2.followers.number) + 1).toString();
 
@@ -249,26 +232,19 @@ exports.unfollow = {
     if (!user || !user2)
       return res.status(406).json({
         status: 406,
-        message: `there is no user with this username ${req.params.username} || ${
-          req.params.username2
-        }`
+        message: `there is no user with this username ${req.params.username} || ${req.params.username2}`
       });
 
     const removeFromFollowers = getUsername(user2.followers, user.username);
     if (removeFromFollowers === -1) {
-      console.log(`${user.username} is not following ${user2.username}`);
-      return res
-        .status(404)
-        .json({ msg: `${user.username} is not following ${user2.username}` });
+      return res.status(404).json({ msg: `${user.username} is not following ${user2.username}` });
     } else {
       user2.followers.users.splice(removeFromFollowers, 1);
     }
 
     const removeFromFollowing = getUsername(user.following, user2.username);
     if (removeFromFollowing === -1)
-      return res
-        .status(404)
-        .json({ msg: `${user.username} is not following ${user2.username}` });
+      return res.status(404).json({ msg: `${user.username} is not following ${user2.username}` });
     else {
       user.following.users.splice(removeFromFollowing, 1);
     }
@@ -305,9 +281,7 @@ exports.isFollowing = {
     if (!user || !user2)
       return res.status(406).json({
         status: 406,
-        message: `there is no user with this username ${req.params.username} || ${
-          req.params.username2
-        }`
+        message: `there is no user with this username ${req.params.username} || ${req.params.username2}`
       });
 
     const following = getUsername(user.following, user2.username);
@@ -320,7 +294,6 @@ exports.followers = {
   path: '/:username/followers',
   logic: async (req, res) => {
     const user = await User.findOne({ username: req.params.username });
-    console.log(user.followers.users);
     res.json(user.followers.users);
   }
 };
