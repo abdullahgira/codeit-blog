@@ -4,9 +4,9 @@ const { pick } = require('lodash');
 
 const { User } = require('./model');
 const upload = require('../middleware/multer');
-const auth = require('../middleware/auth');
-const validateUser = require('../middleware/validateUser');
-const sameUser = require('../middleware/sameUser');
+// const auth = require('../middleware/auth');
+// const validateUser = require('../middleware/validateUser');
+// const sameUser = require('../middleware/sameUser');
 
 const {
   register,
@@ -76,9 +76,9 @@ router.get('/:username', async (req, res) => {
   res.json({ name: user.name, img: user.img });
 });
 
-router.delete('/', async (req, res) => {
-  await User.deleteMany({});
-  res.json({ msg: 'Done' });
-});
+// router.delete('/', async (req, res) => {
+//   await User.deleteMany({});
+//   res.json({ msg: 'Done' });
+// });
 
 module.exports = router;
