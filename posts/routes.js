@@ -22,6 +22,7 @@ exports.userPosts = {
 exports.posts = {
   path: '/',
   logic: async (req, res) => {
+    // return all posts in reversely oredered by publish date
     const posts = await Post.find().sort({ date: -1 });
 
     const result = [];
@@ -42,6 +43,7 @@ exports.posts = {
 exports.create = {
   path: '/:username',
   logic: async (req, res) => {
+    // return posts for a specific user
     const user = await User.findOne({ username: req.params.username });
 
     const { error } = validate(req.body);
@@ -100,10 +102,7 @@ exports.post = {
   logic: async (req, res) => {
     const post = await Post.findById(req.params.id);
 
-    if (!post)
-      return res
-        .status(406)
-        .json({ status: 406, message: 'there is no post with this ID' });
+    if (!post) return res.status(406).json({ status: 406, message: 'there is no post with this ID' });
 
     const visitingUser = await User.findOne({ username: req.params.visitingUser });
     let isliked = false;

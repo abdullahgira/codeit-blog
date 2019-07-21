@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const { Post } = require('./model');
+// const { Post } = require('./model');
 const upload = require('../middleware/multer');
 // const auth = require('../middleware/auth');
 // const validateUser = require('../middleware/validateUser');
@@ -40,9 +40,9 @@ router.get(post.path, post.logic);
 router.post(create.path, upload.single('imgFile'), create.logic);
 router.delete(remove.path, remove.logic);
 
-router.delete('/', async (req, res) => {
-  await Post.deleteMany({});
-  res.json({ msg: 'Done' });
-});
+// router.delete('/', async (req, res) => {
+//   await Post.deleteMany({});
+//   res.json({ msg: 'Done' });
+// });
 
 module.exports = router;
